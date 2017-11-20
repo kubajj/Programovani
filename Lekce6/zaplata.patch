@@ -1,0 +1,14 @@
+--- Prumer_puvodni.java	2017-11-06 16:02:00.656517141 +0100
++++ Prumer.java	2017-10-19 20:34:05.821931308 +0200
+@@ -7,6 +7,10 @@
+             suma += sc.nextDouble();
+             pocet++;
+         }
+-        System.out.printf("Prumer je %2.2f.\n", suma / pocet);
++        if (pocet == 0){
++        	System.out.println("Nezadal jste cislo.");
++        } else{
++        	System.out.printf("Prumer je %2.2f.\n", suma / pocet);
++    	}
+     }
+ }
