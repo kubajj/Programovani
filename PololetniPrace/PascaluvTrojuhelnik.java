@@ -16,7 +16,7 @@ public class PascaluvTrojuhelnik {
 	}
     }
 
-    public static int faktorial(int n) {
+    public static int faktorial(int n) {                    //vzato z domaciho ukolu kombinacni cislo
         if (n <= 1) {
             return 1;
         }
@@ -28,7 +28,7 @@ public class PascaluvTrojuhelnik {
         return vysledek;
     }
 
-    public static int maximum(int cislo){
+    public static int maximum(int cislo){                  //upraveno z ukolu kombinacni cislo
 	int n = cislo;
 	int k = cislo  / 2;
         if ((k == 0) || (k == n)) {
@@ -58,12 +58,12 @@ public class PascaluvTrojuhelnik {
 	int maximum = maximum(pocetradku - 1);
 	int pocetmist = 0;
 	if (maximum == 1){
-	    pocetmist = 2;                                //je jedno jestli je to 1 nebo 2, stejne je to vzdy sude
+	    pocetmist = 2;                                 //je jedno jestli je to 1 nebo 2, stejne je to vzdy sude
 	} else {
-	    pocetmist = (int)Math.log10(maximum - 1) + 2; //realne je to delka nejdelsiho cisla trojuhelniku + 1
+	    pocetmist = (int)Math.log10(maximum - 1) + 2;  //realne je to delka nejdelsiho cisla trojuhelniku + 1
 	}
 	if ((pocetmist % 2) != 0){
-	    pocetmist++;                                  //vsechny pocty mist jsou sude, je to pak lepe zarovnano
+	    pocetmist++;                                   //vsechny pocty mist jsou sude, je to pak lepe zarovnano
 	}
 	if (pocetradku <= 0){
 	    System.out.print("Moc nechapu co mam tisknout...\n");
