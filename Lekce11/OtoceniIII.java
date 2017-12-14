@@ -8,7 +8,7 @@ public class OtoceniIII{
     }
  
     for (int i = pole.delka() - 1; i >= 0; i--) {
-        System.out.printf(" %d", pole.prvek(i));
+        System.out.printf("%d%s", pole.prvek(i), i > 0 ? " " : "");
     }
  
     System.out.println();
