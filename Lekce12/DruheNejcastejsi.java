@@ -1,4 +1,4 @@
-public class CetnostCisel {    
+public class DruheNejcastejsi {    
     public static void main (String args[]) {
 	int pocet = 0;    //pocet vypsanych cisel    //z meho ukolu na OtoceniII
 	int cisla[] = new int[1];
@@ -15,7 +15,10 @@ public class CetnostCisel {
 	java.util.Arrays.sort(cisla, 0, pocet);
 	System.out.printf("\n\n");
 	int max = pocet;
+	int vypsano = 0;
         while (max > 0) {
+	    if (vypsano == 2)
+		break;
 	    int maxdelka = 0;
 	    int prvni = 0;
 	    int posledni = 0;
@@ -41,6 +44,7 @@ public class CetnostCisel {
 		}
 	    }
 	    max = maxdelka - 1;
+	    vypsano++;
 	}
 
     }

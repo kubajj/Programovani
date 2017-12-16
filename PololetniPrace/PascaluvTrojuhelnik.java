@@ -60,7 +60,7 @@ public class PascaluvTrojuhelnik {
 	if (maximum == 1){
 	    pocetmist = 2;                                 //je jedno jestli je to 1 nebo 2, stejne je to vzdy sude
 	} else {
-	    pocetmist = (int)Math.log10(maximum - 1) + 2;  //realne je to delka nejdelsiho cisla trojuhelniku + 1
+	    pocetmist = (int)Math.log10(maximum) + 2;  //realne je to delka nejdelsiho cisla trojuhelniku + 1
 	}
 	if ((pocetmist % 2) != 0){
 	    pocetmist++;                                   //vsechny pocty mist jsou sude, je to pak lepe zarovnano
