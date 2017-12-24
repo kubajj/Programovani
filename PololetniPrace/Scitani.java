@@ -3,6 +3,7 @@ public class Scitani {
 	java.util.Random nahoda = new java.util.Random();
 	java.util.Scanner sc = new java.util.Scanner(System.in);
 	int uspesnost = 0;
+	int pocetprikladu = 0;
 	for (int i = 0; i < 10; i++) {
 	    int a = nahoda.nextInt(20);
 	    int b = nahoda.nextInt(20);
@@ -29,26 +30,51 @@ public class Scitani {
 	    String priklad = a + " " + znamenko + " "  +  b +  " =";
 	    String vypocet = a + znamenko +  b;
 	    System.out.printf("%2d.) %s\n", i + 1, priklad);
+	    pocetprikladu++;
 	    int vysledek = 0;
 	    if (sign == 1) {
 		vysledek = a + b;
 	    } else {
 		vysledek = a - b;
 	    }
-	    int vysledekuzivatele = sc.nextInt();
-	    if (vysledek != vysledekuzivatele) {
-		System.out.printf("Chyba, spravny vysledek je %d.\n\n", vysledek);
-		if (i != 9) {
-		    System.out.println("Zkuste radeji dalsi priklad.");		    
-		}	
+	    if (sc.hasNextInt()) {
+		int vysledekuzivatele = sc.nextInt();
+		if (vysledek != vysledekuzivatele) {
+		    System.out.printf("Chyba, spravny vysledek je %d.\n\n", vysledek);
+		    if (i != 9) {
+			System.out.println("Zkuste radeji dalsi priklad.");		    
+		    }	
+		} else {
+		    System.out.println("Spravne.\n");
+		    if (i != 9) {
+			System.out.println("Zde je dalsi priklad.");
+		    }
+		    uspesnost++;		
+		}
 	    } else {
-		System.out.println("Spravne.\n");
-		if (i != 9) {
-		    System.out.println("Zde je dalsi priklad.");
-		    uspesnost++;
-		}		
+		pocetprikladu--;
+		break;
 	    }
 	}
-	System.out.printf("Vyborne, spravne jste splnil %d prikladu z deseti.\n", uspesnost);
+	double procento = uspesnost / pocetprikladu;
+	String vyrok;
+	if (procento >= 0.90) {
+	    vyrok = "Vyborne";
+	} else if (procento >= 0.75) {
+	    vyrok = "Je co zlepsovat, ale velmi dobre";
+	} else if (procento >= 0.50) {
+	    vyrok = "Dobre";
+	} else if (procento >= 0.35) {
+	    vyrok = "To se vam uplne nepovedlo";
+	} else {
+	    vyrok = "Zkuste to radeji znovu, vase skore je totiz prilis nizke";
+	}
+	if (uspesnost == 1) {
+	    System.out.printf("\n%s, spravne jste splnil %d priklad z %d.\n", vyrok, uspesnost, pocetprikladu);
+	} else if (uspesnost < 5 && uspesnost != 0) {
+	    System.out.printf("\n%s, spravne jste splnil %d priklady z %d.\n", vyrok, uspesnost, pocetprikladu);
+	} else {
+	    System.out.printf("\n%s, spravne jste splnil %d prikladu z %d.\n", vyrok, uspesnost, pocetprikladu);
+	}
     }
 }

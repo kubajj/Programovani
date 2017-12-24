@@ -70,7 +70,7 @@ public class Seq {
 		    return;
 		boolean prvy = true;
 		int treti = Integer.parseInt(pole[2]);
-		for (int i = 0; i < treti; i++) {
+		for (int i = 1; i <= treti; i++) {
 		    if (prvy) {
 			System.out.printf("%d", i);
 			prvy = false;
