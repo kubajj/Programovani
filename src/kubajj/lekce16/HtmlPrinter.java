@@ -1,9 +1,9 @@
-package kubajj.lekce16;
+package src.kubajj.lekce16;
 
 import cz.alisma.alej.prog.pg16.QuadraticEquationPrinter;
 
 public class HtmlPrinter implements QuadraticEquationPrinter {
-
+	public HtmlPrinter() {}
 	@Override
 	public void printEquation(int a, int b, int c, int x1, int x2) {
 		if (a == 1) {

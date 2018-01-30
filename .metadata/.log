@@ -1,0 +1,73 @@
+!SESSION 2018-01-11 17:18:10.556 -----------------------------------------------
+eclipse.buildId=4.7.2.v20171124-2145
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=cs_CZ
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.recommenders.apidocs.rcp 4 0 2018-01-11 17:18:13.323
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.recommenders.apidocs.rcp [635]
+  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.apidocs; bundle-version="[2.4.10,2.4.11)"
+    -> Bundle-SymbolicName: org.eclipse.recommenders.apidocs; bundle-version="2.4.10.v20170917-2302"
+       org.eclipse.recommenders.apidocs [634]
+         Unresolved requirement: Require-Bundle: org.eclipse.recommenders.models; bundle-version="[2.4.10,2.4.11)"
+           -> Bundle-SymbolicName: org.eclipse.recommenders.models; bundle-version="2.4.10.v20170917-2302"
+              org.eclipse.recommenders.models [650]
+                Unresolved requirement: Import-Package: org.eclipse.aether.transport.file; version="[1.0.0,1.1.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.models; bundle-version="[2.4.10,2.4.11)"
+    -> Bundle-SymbolicName: org.eclipse.recommenders.models; bundle-version="2.4.10.v20170917-2302"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-01-11 17:19:23.074
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-01-11 17:19:23.458
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2018-01-11 17:21:33.019 -----------------------------------------------
+eclipse.buildId=4.7.2.v20171124-2145
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=cs_CZ
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.recommenders.apidocs.rcp 4 0 2018-01-11 17:21:34.441
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.recommenders.apidocs.rcp [635]
+  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.apidocs; bundle-version="[2.4.10,2.4.11)"
+    -> Bundle-SymbolicName: org.eclipse.recommenders.apidocs; bundle-version="2.4.10.v20170917-2302"
+       org.eclipse.recommenders.apidocs [634]
+         Unresolved requirement: Require-Bundle: org.eclipse.recommenders.models; bundle-version="[2.4.10,2.4.11)"
+           -> Bundle-SymbolicName: org.eclipse.recommenders.models; bundle-version="2.4.10.v20170917-2302"
+              org.eclipse.recommenders.models [650]
+                Unresolved requirement: Import-Package: org.eclipse.aether.transport.file; version="[1.0.0,1.1.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.recommenders.models; bundle-version="[2.4.10,2.4.11)"
+    -> Bundle-SymbolicName: org.eclipse.recommenders.models; bundle-version="2.4.10.v20170917-2302"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1634)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1613)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1585)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1528)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-01-11 17:22:03.223
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-01-11 17:22:11.718
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-01-11 17:22:11.782
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
