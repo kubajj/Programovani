@@ -1,3 +1,5 @@
+package kubajj.lekce13;
+
 public class Figurka {  
   public static void main (String args[]) {
     int chci = Integer.parseInt(args[0]);

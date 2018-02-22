@@ -1,3 +1,5 @@
+package kubajj.lekce7;
+
 public class Faktorial {
 	public static void main (String[] args) {
 		int cislo = Integer.parseInt(args[0]);		

@@ -1,3 +1,5 @@
+package kubajj.lekce6;
+
 public class Prumer {
     public static void main(String[] args) {
         double suma = 0;

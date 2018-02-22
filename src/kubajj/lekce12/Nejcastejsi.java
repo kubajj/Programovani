@@ -1,3 +1,5 @@
+package kubajj.lekce12;
+
 public class Nejcastejsi {    
     public static void main (String args[]) {
 	int pocet = 0;    //pocet vypsanych cisel    //z meho ukolu na OtoceniII

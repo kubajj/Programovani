@@ -1,3 +1,5 @@
+package kubajj.lekce7;
+
 public class Odmocnina {
     public static int cisloA(int argument) {
 	int i = 1;

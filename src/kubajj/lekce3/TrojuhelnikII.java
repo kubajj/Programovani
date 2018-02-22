@@ -1,3 +1,5 @@
+package kubajj.lekce3;
+
 public class TrojuhelnikII {
  	public static void main (String[] args){ 
 		int d = Integer.parseInt(args [0]);

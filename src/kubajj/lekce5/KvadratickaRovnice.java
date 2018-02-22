@@ -1,3 +1,5 @@
+package kubajj.lekce5;
+
 public class KvadratickaRovnice {
  	public static void main (String[] args){
           double a = Double.parseDouble(args[0]);

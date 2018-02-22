@@ -1,3 +1,5 @@
+package kubajj.lekce7;
+
 public class DenVRoce { 
 	public static boolean rokJePrestupny(int rok) {
 		    if ((rok % 400) == 0) {

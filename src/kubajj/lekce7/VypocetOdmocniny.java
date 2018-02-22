@@ -1,3 +1,5 @@
+package kubajj.lekce7;
+
 public class VypocetOdmocniny{
     public static double vypocetx (double argument, double x){
 	double novex = (((argument / x) + x) / 2);

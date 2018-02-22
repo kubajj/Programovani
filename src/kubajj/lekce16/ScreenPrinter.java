@@ -1,4 +1,4 @@
-package src.kubajj.lekce16;
+package kubajj.lekce16;
 
 import cz.alisma.alej.prog.pg16.QuadraticEquationPrinter;
 

@@ -1,3 +1,5 @@
+package kubajj.lekce12;
+
 public class Morseovka{
   public static void main(String args[]) {
       char jedna[] = new char[] {'1', '9', 'A', 'E', 'G', 'J', 'K', 'N', 'Q', 'W', 'Y'};

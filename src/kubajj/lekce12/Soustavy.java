@@ -1,3 +1,5 @@
+package kubajj.lekce12;
+
 public class Soustavy {
     public static void main (String args[]){
 	int cislo = Integer.parseInt(args[0]);

@@ -1,4 +1,6 @@
-  public class  DomaciUkol {
+package kubajj.lekce2;
+
+public class  DomaciUkol {
                   public static void main (String[] args) {
                               System.out.println("._____");
                               System.out.println("|\\    \\");

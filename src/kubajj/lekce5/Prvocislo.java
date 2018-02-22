@@ -1,3 +1,5 @@
+package kubajj.lekce5;
+
 public class Prvocislo{
 	public static void main (String args[]){
 		int cislo = Integer.parseInt(args[0]);

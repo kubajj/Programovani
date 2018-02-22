@@ -1,3 +1,5 @@
+package kubajj.lekce9;
+
 public class OtoceniIIdouble {
     public static void main(String args[]) {
 	int pocet = 0;

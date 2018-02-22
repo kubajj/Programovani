@@ -1,3 +1,5 @@
+package kubajj.lekce9;
+
 public class OtoceniIdouble {
     public static void main(String args[]) {
 	double cisla[] = new double[100];

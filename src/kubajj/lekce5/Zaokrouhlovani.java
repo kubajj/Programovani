@@ -1,3 +1,5 @@
+package kubajj.lekce5;
+
 public class Zaokrouhlovani {
     public static void main(String[] args) {
         /*

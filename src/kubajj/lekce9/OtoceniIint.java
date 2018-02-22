@@ -1,3 +1,5 @@
+package kubajj.lekce9;
+
 public class OtoceniIint {
     public static void main(String args[]) {
 	int cisla[] = new int[100];

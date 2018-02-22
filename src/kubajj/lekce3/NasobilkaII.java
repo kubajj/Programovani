@@ -1,3 +1,5 @@
+package kubajj.lekce3;
+
 public class NasobilkaII {
  	public static void main (String[] args){ 
 		for ( int a = 1; a <= 10; a++){

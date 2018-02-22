@@ -1,3 +1,5 @@
+package kubajj.lekce10;
+
 public class Kruh {
     /* Je bod na souřadnicích [x,y] v kruhu K([0,0], r=polomer)? */
     private static boolean vKruhu(int x, int y, int polomer) {

@@ -1,3 +1,5 @@
+package kubajj.lekce13;
+
 public class Cetnosti {
     private String pole[];
     private int pocet;

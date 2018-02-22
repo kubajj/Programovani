@@ -1,3 +1,5 @@
+package kubajj.lekce7;
+
 public class Krizek {
 	public static void opakujZnak(char znak, int pocet){
 		while (pocet > 0){

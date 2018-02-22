@@ -1,3 +1,5 @@
+package kubajj.lekce13;
+
 public class CetnostSlov {
     public static void main (String args[]){    
 	Cetnosti cetnost = new Cetnosti();

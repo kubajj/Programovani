@@ -1,4 +1,4 @@
-package Graf;
+package kubajj.lekce14.Graf;
 
 public class Pomocne {
 	public static int maximum(int[] hodnoty, int pocet) {

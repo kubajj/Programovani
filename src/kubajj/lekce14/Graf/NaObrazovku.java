@@ -1,4 +1,4 @@
-package Graf;
+package kubajj.lekce14.Graf;
 
 public class NaObrazovku implements KreslicGrafu {	
 	

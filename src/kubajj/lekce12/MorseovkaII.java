@@ -1,3 +1,5 @@
+package kubajj.lekce12;
+
 public class MorseovkaII{
     public static void main (String args[]){
 	String morse[] = new String[] { "A", ".-", "B", "-...", "C", "-.-.",

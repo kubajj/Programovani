@@ -1,3 +1,5 @@
+package kubajj.lekce3;
+
 public class Nasobky {
  	public static void main (String[] args){
 		int vypsano = 1;

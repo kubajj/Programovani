@@ -1,3 +1,5 @@
+package kubajj.lekce5;
+
 public class Suma {
     public static void main(String[] args) {
         int suma = 0;

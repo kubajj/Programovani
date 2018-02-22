@@ -1,3 +1,5 @@
+package kubajj.lekce11;
+
 public class OtoceniIII{
   public static void main(String args[]) {
     PoleIntu pole = new PoleIntu();

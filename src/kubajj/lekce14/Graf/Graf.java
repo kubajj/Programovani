@@ -1,4 +1,4 @@
-package Graf;
+package kubajj.lekce14.Graf;
 
 public class Graf {
 	public static void main(String args[]) {

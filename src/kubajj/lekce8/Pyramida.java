@@ -1,3 +1,5 @@
+package kubajj.lekce8;
+
 // https://github.com/kubajj/seznameni-s-gitem-2017-18.git/* Nakresli (krasnou) pyramidu. */
 public class Pyramida {
 	public static void main(String[] args) {

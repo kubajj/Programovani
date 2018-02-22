@@ -1,3 +1,5 @@
+package kubajj.lekce11;
+
 public class CetnostCisel {
     public static void main (String args[]){    
 	Cetnosti cetnost = new Cetnosti();

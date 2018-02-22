@@ -1,4 +1,6 @@
-  public class RamecekII {
+package kubajj.lekce3;
+
+public class RamecekII {
           public static void main (String[] args){
                 int sirka = Integer.parseInt(args[0]);
                 int vyska = Integer.parseInt(args[1]);

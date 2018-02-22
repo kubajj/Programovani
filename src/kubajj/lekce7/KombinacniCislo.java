@@ -1,3 +1,5 @@
+package kubajj.lekce7;
+
 public class KombinacniCislo {
 	public static double faktorial(int cislo){
 	    if (cislo == 0){
