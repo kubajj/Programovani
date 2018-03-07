@@ -1,7 +1,6 @@
 package kubajj.lekce20;
-
 /*
-|-- PseudoFork.java
+|-- PseudoFork.javaindent += "|";
 |-- ch
 |    `-- usi
 |          `-- dag
@@ -19,19 +18,26 @@ public class Stromecek {
     }
  
     private static void printFiles(File dir, String indent) {
-        File[] files = dir.listFiles();
+    	File[] files = dir.listFiles();
         int pocet = files.length;
-        int vypsano = 0;
+        int vypsano = 0;        
         for (File f : files) {
-            System.out.printf("%s%s\n", indent, f.getName()); 
-            char znak;
-        	if (vypsano < pocet) {
-        		znak = '|';
-        	} else {
-        		znak = '`';
-        	}
-            if (f.isDirectory()) {            	
-            	printFiles(f, indent + znak + "  " + znak + "  ");            	
+        	char znak, indentniznak;
+	    	if (vypsano < pocet - 1) {
+	    		znak = '|';
+	    		indentniznak = znak;
+	    	} else {
+	    		znak = '`';
+	    		indentniznak = ' ';
+	    	}
+            System.out.printf("%s%c-- %s\n", indent, znak, f.getName()); 
+            if (f.isDirectory()) {
+            	String novyindent = indent + indentniznak;
+            	int mezery = 3 + Math.min(f.getName().length() - 1, 2);
+            	for (int i = mezery; i > 0; i--) {
+            		novyindent += " ";
+            	}
+            	printFiles(f, novyindent);            	
             } 
             vypsano++;
         }
