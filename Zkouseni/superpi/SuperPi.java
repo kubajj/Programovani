@@ -1,4 +1,4 @@
-//package superpi;
+package superpi;
 
 public class SuperPi {
     public static void main(String[] args) {
