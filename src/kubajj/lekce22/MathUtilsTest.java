@@ -59,4 +59,15 @@ public class MathUtilsTest {
     public void noNumbers() {
         MathUtils.gcd2();
     }    
+    
+    @Test
+    public void regulargcd() {
+        assertEquals(7, MathUtils.gcd(28, 42));
+    }
+    
+    @Test
+    public void regulargcd2() {
+        assertEquals(7, MathUtils.gcd(28, 35));
+    }
+    
 }
