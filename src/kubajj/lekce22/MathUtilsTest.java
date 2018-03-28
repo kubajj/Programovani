@@ -1,6 +1,7 @@
 package kubajj.lekce22;
 
-import static org.junit.Assert.*; 
+import static org.junit.Assert.*;
+
 import org.junit.Test;
 
 public class MathUtilsTest {
@@ -55,7 +56,7 @@ public class MathUtilsTest {
         assertEquals(9, MathUtils.gcd2(9, 9));
     }
     
-    @Test(expected = IllegalArgumentException.class)
+    @Test(expected = NumberFormatException.class)
     public void noNumbers() {
         MathUtils.gcd2();
     }    
