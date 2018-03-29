@@ -62,7 +62,7 @@ public class MathUtilsTest {
     
     @Test
     public void regulargcd() {
-        assertEquals(7, MathUtils.gcd(28, 42));
+        assertEquals(14, MathUtils.gcd(28, 42));
     }
     
     @Test
