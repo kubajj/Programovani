@@ -1,11 +1,8 @@
 package kubajj.lekce23;
 
-import static org.junit.Assert.assertEquals;
-
-import java.util.Scanner;
-
-import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Test;
+import java.util.Scanner;
 
 public class ZalomeniTextuTest {
 	@Test
