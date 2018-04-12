@@ -20,6 +20,8 @@ public class Zalamej {
 			}
 			
 			zalam.hotovo();
+			
+			System.out.println();
 		}
 	}
 }

@@ -18,7 +18,9 @@ public class Zalamovac {
 			vystup.println();
 			sirka = -1;
 		} else {
-			vystup.print(" ");
+			if (sirka != -1) {
+				vystup.print(" ");
+			}
 			sirka++;
 		}
 		vystup.print(slovo);
